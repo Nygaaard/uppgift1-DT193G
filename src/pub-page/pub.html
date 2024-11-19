@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Improved Tailwind Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .bg-color {
+      background-color: #fefce8;
+    }
+
+    .boxOneColor {
+      background-color: #54a7df;
+    }
+
+    .boxTwoColor {
+      background-color: #8dcbd6;
+    }
+  </style>
+</head>
+
+<body class="font-sans antialiased bg-gray-50">
+  <header>
+    <nav class="bg-white shadow-lg fixed top-0 left-0 right-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+          <a href="./tailwind.html" class="flex items-center space-x-3">
+            <img src="../images/css-logo.png" class="h-10" alt="CSS Logo">
+            <span class="text-2xl font-bold text-gray-800">Moment 1 - DT193G</span>
+          </a>
+          <button id="menu-toggle" class="text-gray-800 md:hidden focus:outline-none">
+            <svg class="h-6 w-6" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+          </button>
+          <div id="navbar" class="hidden md:flex space-x-8">
+            <a href="../../index.html" class="text-gray-700 hover:text-blue-600">Hem</a>
+            <a href="../bootstrap-page/bootstrap.html" class="text-gray-700 hover:text-blue-600">Bootstrap</a>
+            <a href="../tailwind-page/tailwind.html" class="text-gray-700 hover:text-blue-600">Tailwind</a>
+            <a href="../pub-page/pub.html" class="text-gray-700 hover:text-blue-600">Publicering</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="pt-20 bg-color min-h-screen">
+    <div class="container mx-auto px-4 py-8 grid gap-6 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+      <div class="boxOneColor flex justify-center items-center rounded-lg shadow-md p-6">
+        <h4 class="font-bold text-center text-white">Sidan är publicerad på <p class="text-yellow-500 text-xl">Render</p></h4>
+      </div>
+      <div class="boxTwoColor rounded-lg shadow-md overflow-hidden">
+        <img src="../images/technology.jpg" alt="Kod" class="object-cover w-full h-full">
+      </div>
+      <div class="boxTwoColor flex items-center justify-center rounded-lg shadow-md p-6">
+        <img src="../images/bowl.png" alt="Skål">
+      </div>
+      <div class="boxOneColor rounded-lg shadow-md p-6">
+        <p class="text-white">Du kan lägga till valfri information här.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-blue-50 py-6">
+    <div class="container mx-auto text-center text-gray-700">
+      <p>&copy; Andreas Nygård, 2024</p>
+      <p>Email: <a href="mailto:anny2301@student.miun.se" class="text-blue-500 hover:underline">anny2301@student.miun.se</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+      const navbar = document.getElementById('navbar');
+      navbar.classList.toggle('hidden');
+    });
+  </script>
+</body>
+
+</html>

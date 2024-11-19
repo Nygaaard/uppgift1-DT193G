@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow mb-5">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="./src/images/css-logo.png" alt="css-logo" class="img-fluid" style="max-height: 40px;">
+                Moment 1 - DT193G
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Hem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./src/bootstrap-page/bootstrap.html">Bootstrap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./src/tailwind-page/tailwind.html">Tailwind</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./src/pub-page/pub.html">Publicering</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="intro" class="py-5 bg-light">
+            <div class="container-lg">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-5 text-center text-md-start">
+                        <h1>
+                            <div class="display-2">Moment 1</div>
+                            <div class="display-5 text-muted">Fullstack-utveckling med ramverk</div>
+                        </h1>
+                        <p class="lead my-4 text-muted">En uppgift som går ut på att testa CSS-ramverk</p>
+                    </div>
+                    <div class="col-md-5 text-center d-none d-md-block">
+                        <img class="img-fluid rounded shadow-sm" src="./src/images/miun-logga.jpg" alt="miun-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="d-flex justify-content-center my-5">
+                <div class="card p-4 shadow" style="width: 50%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Uppgiften</h5>
+                        <p class="card-text">Den här uppgiften gick ut på att utforska CSS-ramverk och sedan applicera
+                            två av dessa i en och samma webbplats. Ramverken jag har testat för denna uppgift är:</p>
+                        <ul>
+                            <li>Bootstrap</li>
+                            <li>Tailwind</li>
+                            <li>Materialize</li>
+                            <li>Milligram</li>
+                            <li>Bulma</li>
+                        </ul>
+                        <p>De jag har applicerat på hemsidan är dock endast Bootstrap och Tailwind.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row my-5 align-items-center justify-content-center g-4">
+                <div class="col-10 col-md-6 col-lg-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Bootstrap</h4>
+                            <p class="lead card-subtitle">Tryck nedan för att läsa mer</p>
+                            <p class="display-5 my-4 text-primary fw-bold">BS</p>
+                            <p>Bootstrap har använts till startsidan och Bootstrap-sidan</p>
+                            <a href="./src/bootstrap-page/bootstrap.html" class="btn btn-outline-primary btn-lg mt-3">Gå
+                                till sidan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6 col-lg-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Tailwind</h4>
+                            <p class="lead card-subtitle">Tryck nedan för att läsa mer</p>
+                            <p class="display-5 my-4 text-primary fw-bold">TW</p>
+                            <p>Tailwind har använt till Tailwind- och publiceringssidan.</p>
+                            <a href="./src/tailwind-page/tailwind.html" class="btn btn-outline-primary btn-lg mt-3">Gå
+                                till sidan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6 col-lg-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Publicering</h4>
+                            <p class="lead card-subtitle">Tryck nedan för att läsa mer</p>
+                            <p class="display-5 my-4 text-primary fw-bold">PUB</p>
+                            <a href="./src/pub-page/pub.html" class="btn btn-outline-primary btn-lg mt-3">Gå till
+                                sidan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid bg-dark text-white py-4 mt-5">
+        <div class="d-flex flex-column align-items-center text-center">
+            <p>&copy; Andreas Nygård, 2024</p>
+            <p>anny2301@student.miun.se</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

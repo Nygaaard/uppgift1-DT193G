@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="./js/bootstrap.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow mb-5">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="../images/css-logo.png" alt="css-logo" class="img-fluid" style="max-height: 40px;">
+                Moment 1 - DT193G
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../index.html">Hem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../bootstrap-page/bootstrap.html">Bootstrap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../tailwind-page/tailwind.html">Tailwind</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pub-page/pub.html">Publicering</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="intro" class="mt-5 bg-light py-5">
+            <div class="container-lg text-center">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-5 text-center text-md-start">
+                        <h1 class="display-4 fw-bold text-primary">Bootstrap</h1>
+                        <p class="lead my-4 text-secondary">Den här sidan är uppbyggd helt med ramverket Bootstrap.
+                            Nedan kommer ytterligare information.</p>
+                        <p><a class="link-primary" href="https://getbootstrap.com/" target="_blank">Bootstraps
+                                hemsida</a></p>
+                    </div>
+                    <div class="col-md-5 text-center d-none d-md-block">
+                        <img class="img-fluid" src="../images/boostrap-logo-3.png" alt="Bootstrap-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container bg-light rounded-3 shadow-sm p-4" style="max-width: 700px;">
+                <h3 class="text-center mt-5">Om ramverket</h3>
+                <div class="border-bottom p-3 mt-5">
+                    <p>Ramverket Bootstrap är ett av världens absolut mest populära och använda CSS-ramverk.
+                        Detta kan jag förstå då det är relativt enkelt att komma igång med. Det går ganska
+                        snabbt att få ihop en sida som ser någorlunda bra ut, men om man vill ha en riktigt snygg sida
+                        så krävs ändå väldigt mycket kunskap och erfarenhet.
+                    </p>
+                </div>
+                <div class="border-bottom p-3">
+                    <p>
+                        Det finns dock väldigt mycket att få gratis. Allt i från grid-system till färdiga knappar.
+                        Detta är så klart väldigt bra om man inte nödvändigtvis måste ha en helt unik styling på sin
+                        sida.
+                        Det är också väldigt praktiskt att alla komponenter och färdiga delar redan är responsiva. Detta
+                        sparar mycket tid under utvecklandet av en sida.
+                    </p>
+                </div>
+                <div class="border-bottom p-3">
+                    <p>
+                        Det finns flera sätt att installera Bootstrap på. Jag valde att lägga in CDN-länkar. Där
+                        krävs en "link" för CSS och en "script" för JavaScript. Link läggs i head-elementet och script
+                        läggs
+                        längst ner i body-elementet.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container-md">
+            <h3 class="text-center">Skriv upp dig på listan nedan</h3>
+            <div class="card p-4 shadow my-5" style="width: 70%; margin: 0 auto;">
+                <form id="frameworkForm">
+                    <div class="form-group mb-3">
+                        <label for="firstname">Namn</label>
+                        <input type="text" class="form-control" id="firstname" placeholder="Skriv ditt namn">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="age">Ålder</label>
+                        <select class="form-control" id="age">
+                            <option>
+                                <18< /option>
+                            <option> 18-35</option>
+                            <option> 36-49</option>
+                            <option>50+</option>
+                        </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="positives">Favoritramverk</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Ramverk"></textarea>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="gender">Kön</label><br>
+                        <input type="checkbox" id="female" name="gender">
+                        <label for="female">Kvinna</label><br>
+                        <input type="checkbox" id="male" name="gender">
+                        <label for="male">Man</label><br>
+                        <input type="checkbox" id="other" name="gender">
+                        <label for="other">Annan</label><br>
+                    </div>
+                    <button type="button" id="addButton" class="btn btn-primary mt-3 w-100">Lägg till</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="mt-5 container">
+            <h3 class="p-4 text-center">En lista med användare som skrivit upp sig</h3>
+            <div class="table-responsive rounded-3 shadow">
+                <table id="frameworkTable" class="table table-hover table-light">
+                    <thead>
+                        <tr>
+                            <th scope="col">Namn</th>
+                            <th scope="col">Ålder</th>
+                            <th scope="col">Favoritramverk</th>
+                            <th scope="col">Kön</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Andreas Nygård</td>
+                            <td>18-35</td>
+                            <td>Skulle nog säga Tailwind</td>
+                            <td>Man</td>
+                        </tr>
+                        <tr>
+                            <td>Carolina Andersson</td>
+                            <td>18-35</td>
+                            <td>Bootstrap</td>
+                            <td>Kvinna</td>
+                        </tr>
+                        <tr>
+                            <td>Björn Borg</td>
+                            <td>50+</td>
+                            <td>Bulma</td>
+                            <td>Man</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+    <footer class="container-fluid bg-dark text-white py-4 mt-5">
+        <div class="d-flex flex-column align-items-center text-center">
+            <p>&copy; Andreas Nygård, 2024</p>
+            <p>anny2301@student.miun.se</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

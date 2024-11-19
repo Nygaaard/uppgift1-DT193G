@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .bg-image {
+            background-image: url('../images/programming.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .bg-color {
+            background-color: #fefce8;
+        }
+
+        .link-color {
+            background-color: #d6d197;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="bg-white border-gray-200 dark:bg-gray-900 fixed top-0 left-0 right-0 z-50">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="./tailwind.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="../images/css-logo.png" class="h-8" alt="CSS logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Moment 1 -
+                        DT193G</span>
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul
+                        class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <li>
+                            <a href="../../index.html"
+                                class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                                aria-current="page">Hem</a>
+                        </li>
+                        <li>
+                            <a href="../bootstrap-page/bootstrap.html"
+                                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Bootstrap</a>
+                        </li>
+                        <li>
+                            <a href="./tailwind.html"
+                                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Tailwind</a>
+                        </li>
+                        <li>
+                            <a href="../pub-page/pub.html"
+                                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Publicering</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="bg-image h-screen flex items-center justify-center"></div>
+
+        <h2 class="text-center font-bold text-xl my-5">
+            Om ramverket
+        </h2>
+        <div class="max-w-lg rounded overflow-hidden shadow-lg mt-5 mx-auto bg-color">
+            <div class="px-6 py-4">
+                <div class="font-bold text-l mb-2">Tailwind</div>
+                <p class="text-gray-700 text-base">
+                    Tailwind är också ett populärt CSS-ramverk. Det skiljer sig lite från Bootstrap då det
+                    sistnämnda är känt för sina många färdiga komponenter, medan Tailwind kräver lite mer CSS-kunskap.
+                    Tailwind ger dock mer utrymme för att vara kreativ.
+                </p>
+            </div>
+        </div>
+        <div class="max-w-lg rounded overflow-hidden shadow-lg mt-5 mx-auto bg-color">
+            <img class="w-full" src="../images/technology.jpg" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+                <div class="font-bold text-l mb-2">The Coldest Sunset</div>
+                <p class="text-gray-700 text-base">
+                    Det är väldigt många klasser som krävs för att skapa en snygg design. Det finns färdiga designer för
+                    cards,
+                    tabeller, formulär osv. Jag har tagit hjälp av dessa för att få en mer professionell design, men har
+                    justerat allt utefter hur jag vill ha det.
+                </p>
+            </div>
+        </div>
+        <div class="max-w-lg rounded overflow-hidden shadow-lg mt-5 mx-auto bg-color">
+            <div class="px-6 py-4">
+                <div class="font-bold text-l mb-2">The Coldest Sunset</div>
+                <p class="text-gray-700 text-base">
+                    Tailwind är också ett populärt CSS-ramverk. Det skiljer sig lite från Bootstrap då det
+                    sistnämnda är känt för sina många färdiga komponenter, medan Tailwind kräver lite mer CSS-kunskap.
+                    Tailwind ger dock mer utrymme för att vara kreativ.
+                </p>
+            </div>
+        </div>
+        <div
+            class="container flex justify-center mt-20 flex-col items-center mx-auto link-color py-8 px-2 rounded lg:w-1/2 sm:w-4/5">
+            <h3 class="text-center font-bold mb-5 color text-blue-500 text-xl">För att besöka Tailwinds hemsida - tryck
+                på länken nedan</h3>
+            <a class="italic underline text-brown-400" href="https://tailwindcss.com/" target="_blank">Länk till
+                hemsida</a>
+        </div>
+        <h2 class="font-bold text-lg text-center mt-20 mb-8">En lista med användare som skrivit upp sig</h2>
+        <div class="relative overflow-x-auto shadow-md sm:rounded-lg my-5 border">
+            <table class="w-3/5 mx-auto text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                    <tr>
+                        <th scope="col" class="px-6 py-3">
+                            Namn
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Ålder
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Favoritramverk
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Kön
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            Andreas Nygård
+                        </th>
+                        <td class="px-6 py-4">
+                            18-35
+                        </td>
+                        <td class="px-6 py-4">
+                            Tailwind
+                        </td>
+                        <td class="px-6 py-4">
+                            Man
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            Carolina Andersson
+                        </th>
+                        <td class="px-6 py-4">
+                            18-35
+                        </td>
+                        <td class="px-6 py-4">
+                            Bootstrap
+                        </td>
+                        <td class="px-6 py-4">
+                            Kvinna
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            Björn Borg
+                        </th>
+                        <td class="px-6 py-4">
+                            50+
+                        </td>
+                        <td class="px-6 py-4">
+                            Bulma
+                        </td>
+                        <td class="px-6 py-4">
+                            Man
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <form class="w-full max-w-lg mt-5 mx-auto px-4 sm:px-0">
+            <h3 class="my-5 font-bold text-lg text-center mt-20">Skriv upp dig på listan nedan:</h3>
+
+            <div class="flex flex-wrap -mx-3">
+                <div class="w-full sm:w-1/2 px-3 mb-4">
+                    <label for="grid-name" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
+                        Namn
+                    </label>
+                    <input id="grid-name" type="text" placeholder="Ditt namn"
+                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-300 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-blue-500">
+                </div>
+            </div>
+
+            <div class="flex flex-wrap -mx-3 mb-4">
+                <div class="w-full sm:w-1/2 px-3">
+                    <label for="grid-state" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
+                        Ålder
+                    </label>
+                    <div class="relative">
+                        <select id="grid-state"
+                            class="block appearance-none w-full bg-gray-200 border border-gray-300 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-blue-500">
+                            <option>
+                                <18</option>
+                            <option>18-35</option>
+                            <option>36-49</option>
+                            <option>50+</option>
+                        </select>
+                        <div
+                            class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap -mx-3 mb-4">
+                <div class="w-full px-3">
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900">
+                        Favoritramverk
+                    </label>
+                    <textarea id="message" rows="4"
+                        class="block w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+                        placeholder="Favoritramverk"></textarea>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap -mx-3 mb-4">
+                <div class="w-full px-3">
+                    <h3 class="mb-3 font-bold text-gray-700">Kön</h3>
+                    <div class="flex items-center mb-2">
+                        <input id="female" type="radio" name="gender" value="female"
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+                        <label for="female" class="ml-2 text-sm font-medium text-gray-900">Kvinna</label>
+                    </div>
+                    <div class="flex items-center mb-2">
+                        <input id="male" type="radio" name="gender" value="male"
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+                        <label for="male" class="ml-2 text-sm font-medium text-gray-900">Man</label>
+                    </div>
+                    <div class="flex items-center mb-2">
+                        <input id="other" type="radio" name="gender" value="other"
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+                        <label for="other" class="ml-2 text-sm font-medium text-gray-900">Annan</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-center mt-4">
+                <button type="submit"
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400">
+                    Skicka in
+                </button>
+            </div>
+        </form>
+
+    </main>
+    <footer class="container bg-blue-50">
+        <div class="p-5 text-center ">
+            <p>&copy; Andreas Nygård, 2024</p>
+            <p>anny2301@student.miun.se</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggleButton = document.querySelector('[data-collapse-toggle]');
+            const menu = document.getElementById('navbar-default');
+
+            toggleButton.addEventListener('click', function () {
+                menu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+
+</html>
