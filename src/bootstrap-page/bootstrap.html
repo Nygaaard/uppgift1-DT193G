@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -89,6 +90,10 @@
             <h3 class="text-center">Skriv upp dig på listan nedan</h3>
             <div class="card p-4 shadow my-5" style="width: 70%; margin: 0 auto;">
                 <form id="frameworkForm">
+                    <div id="errorDiv" class="text-danger mb-3" style="display: none;">
+                        Alla fält måste fyllas i!
+                    </div>
+        
                     <div class="form-group mb-3">
                         <label for="firstname">Namn</label>
                         <input type="text" class="form-control" id="firstname" placeholder="Skriv ditt namn">
@@ -96,8 +101,7 @@
                     <div class="form-group mb-3">
                         <label for="age">Ålder</label>
                         <select class="form-control" id="age">
-                            <option>
-                                <18</option>
+                            <option><18</option>
                             <option> 18-35</option>
                             <option> 36-49</option>
                             <option>50+</option>
@@ -109,17 +113,18 @@
                     </div>
                     <div class="form-group mb-3">
                         <label for="gender">Kön</label><br>
-                        <input type="checkbox" id="female" name="gender">
+                        <input type="checkbox" id="female" name="gender" value="Kvinna">
                         <label for="female">Kvinna</label><br>
-                        <input type="checkbox" id="male" name="gender">
+                        <input type="checkbox" id="male" name="gender" value="Man">
                         <label for="male">Man</label><br>
-                        <input type="checkbox" id="other" name="gender">
+                        <input type="checkbox" id="other" name="gender" value="Annan">
                         <label for="other">Annan</label><br>
                     </div>
                     <button type="button" id="addButton" class="btn btn-primary mt-3 w-100">Lägg till</button>
                 </form>
             </div>
         </section>
+        
 
         <section class="mt-5 container">
             <h3 class="p-4 text-center">En lista med användare som skrivit upp sig</h3>
