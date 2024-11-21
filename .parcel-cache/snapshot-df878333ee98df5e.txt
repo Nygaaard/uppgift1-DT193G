@@ -1,4 +1,4 @@
-7478
+7491
 131C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\postcss-selector-parser\dist\selectors\combinator.js133757904231719956 0
 90C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\cross-spawn133757904232327004 1
 120C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\caniuse-lite\data\features\mediasource.js133764815185504652 0
@@ -23,7 +23,7 @@
 69C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\src133757917965470142 1
 102C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\parent-module\readme.md133764815150154927 0
 93C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\balanced-match133757904231632827 1
-70C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist133764822560436013 1
+70C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist133766495421508332 1
 96C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\yaml\dist\compose133757904237456638 1
 91C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\svgo\plugins133764822550772202 1
 93C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\jiti\README.md133757904233901232 0
@@ -91,7 +91,7 @@
 108C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\lightningcss\node\ast.js.flow133764815155958414 0
 100C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\@swc\helpers\_\_using133764815180589173 1
 88C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\@mischnic133764815144953583 1
-78C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\package.json133764822738221627 0
+78C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\package.json133766495227559643 0
 104C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\glob\dist\esm\glob.js.map133757904233525777 0
 104C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\css-tree\cjs\syntax\scope133764822551231645 1
 120C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\sucrase\dist\esm\util\isAsyncOperation.js133757904234947955 0
@@ -840,6 +840,7 @@
 104C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\@swc\counter\package.json133764815152278681 0
 111C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\minimatch\dist\esm\escape.js.map133757904233870986 0
 100C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\htmlnano\package.json133764815168661266 0
+107C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\bootstrap-page\bootstrap.adb57e42.js133766495421847278 0
 111C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\sucrase\dist\esm\parser\index.js133757904234613157 0
 106C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\yaml\browser\dist\errors.js133757904234450334 0
 125C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\@swc\helpers\_\_apply_decs_2203_r\package.json133764815175908961 0
@@ -1289,7 +1290,7 @@
 112C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\yaml\dist\schema\core\schema.d.ts133757904237216010 0
 110C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\caniuse-lite\data\regions\GG.js133764815181380998 0
 135C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\resolve\test\resolver\nested_symlinks\mylib\package.json133757904235545740 0
-88C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\bowl.5a13d839.png133764822522349142 0
+88C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\bowl.5a13d839.png133766495411123537 0
 98C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\ansi-styles\license133757904230656757 0
 112C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\yaml\dist\schema\common\null.d.ts133757904237043531 0
 129C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\caniuse-lite\data\features\css-case-insensitive.js133764815173815395 0
@@ -1331,6 +1332,7 @@
 118C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\type-fest\source\async-return-type.d.ts133764815152014567 0
 97C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\postcss-js\sync.js133757904232056316 0
 102C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\csso\cjs\replace\atrule133764822547790679 1
+100C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\bootstrap-page\bootstrap.html133766495421723611 0
 102C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\yaml\dist\nodes\Node.js133757904235178902 0
 119C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\foreground-child\dist\esm\all-signals.js133757904231597494 0
 136C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\string-width-cjs\node_modules\emoji-regex\LICENSE-MIT.txt133757904231568019 0
@@ -1350,6 +1352,7 @@
 123C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\yaml\browser\dist\stringify\foldFlowLines.js133757904234635012 0
 106C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\resolve\test\precedence\aaa133757904234758861 1
 115C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\css-what\lib\commonjs\types.d.ts.map133764822546498279 0
+109C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\tailwind-page\tailwind.2179cc83.js.map133766495422011014 0
 92C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\.bin\glob.cmd133757904238201480 0
 104C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\cosmiconfig\dist\types.js133764815156545007 0
 104C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\yaml\dist\nodes\Scalar.js133757904235737445 0
@@ -1619,6 +1622,7 @@
 106C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\weak-lru-cache\package.json133764815152517763 0
 127C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\lmdb\node_modules\node-addon-api\tools\README.md133764815167359575 0
 117C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\domutils\lib\esm\manipulation.d.ts.map133764815165359355 0
+79C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\pub-page133766495421890962 1
 128C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\yaml\browser\dist\compose\resolve-block-scalar.js133757904235508215 0
 99C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\resolve\test\core.js133757904233395380 0
 127C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\csso\node_modules\css-tree\lib\definition-syntax133764822553749241 1
@@ -1721,6 +1725,7 @@
 110C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\dom-serializer\lib\esm\index.js133764815150141020 0
 99C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\weak-lru-cache\tests133764815151789272 1
 122C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\foreground-child\dist\commonjs\package.json133757904232500567 0
+85C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\bootstrap-page133766495422030978 1
 110C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\caniuse-lite\data\regions\VE.js133764815190274939 0
 118C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\css-tree\lib\definition-syntax\parse.js133764822553007609 0
 113C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\css-tree\cjs\syntax\node\Value.cjs133764822551216839 0
@@ -3084,6 +3089,7 @@
 114C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\signal-exit\dist\mjs\signals.js.map133757904233304708 0
 101C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\mdn-data\l10n\index.js133764822546299225 0
 119C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\posthtml\node_modules\domhandler\LICENSE133764815162403172 0
+74C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\up_133766495421901249 1
 105C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\nth-check\lib\compile.d.ts133764822546996609 0
 111C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\resolve\test\resolver\other_path133757904235146051 1
 112C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\signal-exit\dist\cjs\browser.d.ts133757904233395380 0
@@ -3096,7 +3102,7 @@
 107C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\nth-check\lib\compile.js.map133764822546146698 0
 119C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\csso\node_modules\css-tree\cjs\index.cjs133764822549587790 0
 114C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\signal-exit\dist\cjs\browser.js.map133757904232674365 0
-99C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\boostrap-logo-3.e5f61be3.png133764822525094705 0
+99C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\boostrap-logo-3.e5f61be3.png133766495409098614 0
 126C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\csso\node_modules\css-tree\cjs\walker\index.cjs133764822549959267 0
 94C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\@parcel\fs\test133764815164899857 1
 102C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\parse-json\package.json133764815149718789 0
@@ -3984,7 +3990,7 @@
 140C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\csso\node_modules\css-tree\lib\definition-syntax\tokenizer.js133764822553490620 0
 99C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\msgpackr-extract\src133764815148807670 1
 111C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\msgpackr-extract\src\extract.cpp133764815148964754 0
-94C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\technology.9c784dbe.jpg133764822524959194 0
+94C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\technology.9c784dbe.jpg133766495404986666 0
 134C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Operator.cjs133764822550434764 0
 110C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\caniuse-lite\data\regions\PT.js133764815187350868 0
 113C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\msgpackr-extract\node_modules\.bin133764815248499733 1
@@ -4380,7 +4386,7 @@
 124C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\csso\node_modules\css-tree\lib\lexer\index.js133764822552615712 0
 99C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\lightningcss\LICENSE133764815152691605 0
 105C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\htmlnano\docs\package.json133764815168546622 0
-95C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\programming.d06f903c.png133764822523118966 0
+95C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\programming.d06f903c.png133766495411123537 0
 96C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\lightningcss\node133764815164194635 1
 121C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\fast-glob\out\providers\filters\error.d.ts133757904234101356 0
 104C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\lightningcss\package.json133764815160667671 0
@@ -5031,6 +5037,7 @@
 112C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\domhandler\lib\esm\index.d.ts.map133764815153022753 0
 107C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\domhandler\lib\esm\node.d.ts133764815157017577 0
 95C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\cssesc\README.md133757904231517022 0
+92C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\computer.0f35290f.jpg133766495409108676 0
 111C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\domhandler\lib\esm\node.d.ts.map133764815154183940 0
 111C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\@parcel\core\lib\public\Asset.js133764815167084896 0
 105C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\domhandler\lib\esm\node.js133764815150253066 0
@@ -5418,6 +5425,7 @@
 110C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\caniuse-lite\data\regions\SD.js133764815188143733 0
 116C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\css-tree\lib\parser\parse-selector.js133764822552997262 0
 113C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\css-tree\lib\parser\SyntaxError.js133764822553419980 0
+111C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\bootstrap-page\bootstrap.adb57e42.js.map133766495422011014 0
 114C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\css-tree\lib\lexer\generic-const.js133764822552249126 0
 112C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\css-tree\lib\lexer\match-graph.js133764822552747038 0
 130C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\caniuse-lite\data\features\credential-management.js133764815172972849 0
@@ -6813,7 +6821,7 @@
 136C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\@parcel\workers\test\integration\workerfarm\master-sum.js133764815165856296 0
 150C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\@parcel\workers\test\integration\workerfarm\resolve-shared-reference.js133764815166904934 0
 140C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\@parcel\workers\test\integration\workerfarm\reverse-handle.js133764815167018484 0
-92C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\css-logo.eed38b34.png133764822523118966 0
+92C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\css-logo.eed38b34.png133766495404972946 0
 142C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\@parcel\workers\test\integration\workerfarm\shared-reference.js133764815167165110 0
 109C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\@parcel\workers\src\backend.js133764815156093931 0
 107C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\@parcel\workers\src\child.js133764815158880423 0
@@ -7469,11 +7477,16 @@
 92C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\.bin\svgo.ps1133764822553972893 0
 96C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\.bin\tailwind.ps1133757904238211393 0
 110C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\.bin\update-browserslist-db.ps1133764815248509827 0
-94C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\miun-logga.ddb432ad.jpg133764822523128725 0
+94C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\miun-logga.ddb432ad.jpg133766495409098614 0
 74C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\src133764822560292644 1
+84C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\tailwind-page133766495422030978 1
+85C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\up_\index.html133766495421817251 0
+105C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\tailwind-page\tailwind.2179cc83.js133766495421837262 0
+98C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\tailwind-page\tailwind.html133766495421723611 0
 89C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\src\bootstrap-page133764822560528393 1
 83C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\src\pub-page133764822560465822 1
 88C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\src\tailwind-page133764822560455837 1
 92C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\src\pub-page\pub.html133764822560425821 0
 115C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\src\bootstrap-page\bootstrap.227c17a2.js.map133764822560508399 0
 104C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\src\bootstrap-page\bootstrap.html133764822560360259 0
+88C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\dist\pub-page\pub.html133766495421733587 0
