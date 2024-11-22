@@ -1,3 +1,4 @@
+//Aktivera formulär på Bootstrap-page
 document.getElementById("addButton").addEventListener("click", function() {
     var nameEl = document.getElementById("firstname");
     var ageEl = document.getElementById("age");

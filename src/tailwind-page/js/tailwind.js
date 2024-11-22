@@ -1,3 +1,4 @@
+//Aktivera formulär på Tailwind-page
 const tBodyEl = document.getElementById("tBody");
 
 const gridNameEl = document.getElementById("grid-name");

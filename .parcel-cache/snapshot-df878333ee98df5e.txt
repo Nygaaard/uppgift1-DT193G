@@ -187,7 +187,7 @@
 93C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\is-core-module133757904232369035 1
 132C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\@parcel\rust\parcel-node-bindings.win32-x64-msvc.node133764815248031316 0
 112C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\yaml\dist\nodes\addPairToJSMap.js133757904231620792 0
-98C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\src\tailwind-page\js\tailwind.js133765038879426342 0
+98C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\src\tailwind-page\js\tailwind.js133767655648708538 0
 109C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\yaml\dist\schema\common\map.js133757904235074695 0
 117C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\css-tree\cjs\syntax\scope\selector.cjs133764822550745394 0
 107C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\yaml\dist\nodes\YAMLMap.d.ts133757904237497517 0
@@ -274,7 +274,7 @@
 88C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\which\bin133757904230990609 1
 119C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\css-tree\lib\syntax\node\SelectorList.js133764822553267473 0
 89C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\css-select133764822549793177 1
-100C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\src\bootstrap-page\js\bootstrap.js133765043518153284 0
+100C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\src\bootstrap-page\js\bootstrap.js133767655358934479 0
 103C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\csso\cjs\clean\utils.cjs133764822548449457 0
 113C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\tailwindcss\lib\lib\load-config.js133757904236306915 0
 157C:\Users\nygar\OneDrive\Skrivbord\Ramverk\Moment1\uppgift1-DT193G\node_modules\posthtml\node_modules\dom-serializer\node_modules\entities\lib\decode.d.ts.map133764815165223810 0
